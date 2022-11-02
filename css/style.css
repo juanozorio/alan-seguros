@@ -39,6 +39,13 @@ body {
     margin-bottom: 2em !important;
 }
 
+#listaLinks {
+    margin: 0 40%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 2rem;    
+}
+
 .whatsapp {
     position: fixed;
     bottom: 30px;
@@ -50,10 +57,18 @@ body {
     #grupoConvenios {
         width: 90% !important;
     }
+
+    #listaLinks {
+        margin: 0 10%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     #grupoConvenios {
         width: 90% !important;
+    }
+
+    #listaLinks {
+        margin: 0 10%;
     }
 }
